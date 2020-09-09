@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: url("../images/Joanna-Buniak-bkg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer
+{
+    background-color: black;
+
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.actve a
+{
+    border: 1px solid white;
+}
+
+.main-nav a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+width: 60px;
+height: auto;
+float: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+body
+{
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+position: absolute;
+width: 1200px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+h2
+{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+h3
+{
+    color: #4d4c50;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h4
+{
+    color:#d4d0da;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h5
+{
+    color:#F06C60;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 60px;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4d4c50;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.button2
+{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+.btn-one
+{
+    background-color:white;
+    color: teal;
+    font-family: Helvetica, sans-serif,Arial ;
+}
+
+.btn-two
+{
+    font-family: Helvetica, sans-serif,Arial ;
+}
+
+.btn-three
+{
+    background-color: teal;
+    color: white;
+    font-family: Helvetica, sans-serif,Arial ;
+}
+
+.btn-one:hover
+{
+    background-color:transparent;
+    transition: all 0.5;
+    color: white;
+}
+
+.btn-two:hover
+{
+    background-color: teal;
+    transition: all 0.5;
+}
+
+.btn-three:hover
+{
+    background-color:transparent;
+    transition: all 0.5;
+    color: teal;
+    border: 1px solid teal;
+}
+
+
+
+.container div {
+    padding: 5%;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+.left-col, .right-col {
+    background-color: white;
+    width: 50%;
+    float: left;
+}
+
+.projects {
+    background-color: white;
+    height: auto;
+    text-align: left;
+    color: black;
+    padding: 1px;
+}
