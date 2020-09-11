@@ -5,9 +5,9 @@
 }
 header {
     background-image: url("../images/Joanna-Buniak-bkg.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+    height: 85vh;
+    background-size: auto;
+    background-position: cover;
 }
 
 .main-nav {
@@ -65,7 +65,7 @@ h1 {
     text-transform: uppercase;
     font-size: 70px;
     text-align: center;
-    margin-top: 275px;
+    margin-top: 255px;
 }
 
 h2 {
@@ -122,9 +122,10 @@ p {
     margin-left: 440px;
 }
 
-.button2 {
-    margin-top: 0px;
+.button-secondary {
+    margin-top: 40px;
     margin-left: 0px;
+    position: float;
 }
 .btn {
     border: 1px solid white;
@@ -171,25 +172,31 @@ p {
     border: 1px solid teal;
 }
 
-
-
-.container div {
-    padding: 5%;
-    box-sizing: border-box;
-    min-height: 500px;
-}
-.left-col, .right-col {
-    background-color: white;
-    width: 50%;
-    float: left;
-}
-
 .projects {
     background-color: white;
     height: auto;
     text-align: left;
     color: black;
     padding: 0px;
+}
+
+.parentContainer {
+    display: flex;
+}
+
+.flexChild {
+    background-color: white;
+    padding: 10px; 
+    margin: 5%;
+    height: auto;
+    color: black;
+}
+
+
+.left-col, .right-col {
+    background-color: white;
+    width: 50%;
+    float: left;
 }
 
 .footer {
@@ -244,7 +251,17 @@ margin-bottom: 20px;
 
 .inner_footer .footer_third a {
     font-family: Helvetica, sans-serif, Arial;
-    font-size: 18px;
+    font-size: 14px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.inner_footer .footer_third p {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 14px;
     color: white;
     display: block;
     font-weight: 200;
